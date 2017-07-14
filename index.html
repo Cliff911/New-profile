@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gallery</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery-3.2.0.js"></script>
+    <link rel='shortcut icon' type='image/x-icon' href='/acw1.jpg'/>
+
+
+</head>
+
+<header>
+
+
+    <div class="Home">
+        <a href="index.html">Homepage</a>
+    </div>
+    <div class="Portfolio">
+        <a href="Portfolio.html">Portfolio</a>
+    </div>
+
+    <div class="contact">
+        <a href="contact.html">Contact</a>
+    </div>
+</header>
+
+<body>
+<div class="gallery">
+    <div class="main_image">
+        <img src="assets/cliff4.jpg">
+    </div>
+    <div class="selection_image">
+        <div class="thumb">
+
+
+            <div class="overlay"></div>
+            <img src="assets/beach.jpg"/>
+
+        </div>
+
+
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/formal.jpg"/>
+        </div>
+
+
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/vale.jpg"/>
+        </div>
+
+        <div class="thumb">
+            <div class="overlay"></div>
+            <img src="assets/wow.jpg"/>
+        </div>
+    </div>
+    </div>
+
+
+
+        <div class="mybio"><h1>My Bio</h1>
+            <article class="para">Name:Cliff Denzel<br>
+                Surname:Nyashanu<br>
+                i was born December 28 1994 in Zimbabwe Harare, then moved to Cape town in 2006, i went to Cravenby
+                Secondary
+                School, Graduated 2014.<br>
+                I was a prefect at school, also got to Captain the under 19 soccer team at school.<br>
+                I'm passionate about Computers, Specifically programming, bringing new innovative ways to improve the
+                computer
+                industry of which i'm still learning the different computer Languages, like <br>
+            </article>
+        </div>
+        <div class="attribs"><h1>Attributes and Strength.<br></h1></div>
+        <div class="para2"> -Ability to work as a team , to motivate others and eager to learn new skills.<br>
+            -Very loyal and punctual.<br>
+            -Computer literate.<br>
+            - Ability to Think and respond to Problems.<br>
+            -Junior Web Developer.<br>
+            -Curious about Learning new things.<br>
+            - was a soccer captain at school u19 team 2014.<br>
+            - was a prefect During my schooling career at cravenby secondary school 2014.<br>
+
+        </div>
+
+
+        <div class="education"><h1>Educational Skills<br></h1>
+            <div class="para3"> 2008:CRAVENLY SECONDARY SCHOOL: Cape Town-National Senior Certificate
+                Matriculated 2014 PASSED
+                A aggregate attained in Mathematical literacy, B aggregate in Economics and Business Studies.<br>
+
+            </div>
+        </div>
+
+
+        <h1> HTML 75% </h1>
+
+        <div id="myHtml">
+            <div id="Bar1"></div>
+        </div>
+
+
+        <h1>CCS 65% </h1>
+
+        <div id="myCSS">
+            <div id="Bar2"></div>
+        </div>
+
+
+        <h1>JAVASCRIPT 50% </h1>
+
+        <div id="myjava">
+            <div id="Bar3"></div>
+        </div>
+
+
+        <h1> JQUERY 56% </h1>
+
+        <div id="myjq">
+            <div id="Bar4"></div>
+        </div>
+
+
+        <h1>PHP 80% </h1>
+
+        <div id="myPhp">
+            <div id="Bar5"></div>
+        </div>
+
+
+        <h1>MySQL 60% </h1>
+
+        <div id="mysql">
+            <div id="Bar6"></div>
+        </div>
+
+
+        <div>
+            <footer style="color: red">
+                Cliff@codespace
+            </footer>
+        </div>
+
+</body>
+</html>
+<script>
+
+
+    $(document).ready(function(){
+        $('.thumb').hover(function(){
+            $('.main_image img').attr('src',$(this).children('img').attr('src'));
+        });
+    })
+
+
+
+
+</script>
+
